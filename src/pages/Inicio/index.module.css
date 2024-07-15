@@ -1,0 +1,18 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 0.5rem;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+}
+@media (min-width: 1440px) {
+    .container {
+      padding: 3rem 10rem;
+    }
+}

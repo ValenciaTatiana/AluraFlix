@@ -1,0 +1,37 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--negro);
+}
+a { 
+    text-decoration: none;
+    cursor: pointer;
+}
+.logoContainer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.cabecera img {
+    align-self: start;
+    width: 10rem;
+}
+@media (min-width: 768px) {
+    .cabecera {
+        padding: 2rem;
+    }
+    .cabecera img {
+        width: 12rem;
+    }
+}
+@media (min-width: 1440px) {
+    .cabecera {
+        padding: 2.5rem 3rem;
+    }
+    .cabecera img {
+        width: 15rem;
+        padding-top: 0.5rem;
+    }
+}
